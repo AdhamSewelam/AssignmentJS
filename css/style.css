@@ -1,0 +1,83 @@
+#home
+{
+    background-image: url(../images/584867.jpg);
+    background-size: cover;
+}
+.main-color
+{
+    color: rgb(112, 112, 112);
+}
+.mask
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo, .fa-bars
+{
+    color: #fcb5f3;
+    text-shadow: 0.1rem 0.1rem 0.3rem rgba(255,131,239,0.5),
+                -0.1rem -0.1rem 0.3rem rgba(255,162,243,0.5),
+                 0.1rem 0.1rem 0.3rem rgba(255,255,255,0.3),
+                -0.1rem -0.1rem 0.3rem rgba(255,255,255,0.3);
+}
+.navslide
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.navslide .options
+{
+    position: relative;
+    display: none;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(65, 70, 88);
+    padding: 10px;
+}
+.navslide .options a
+{
+    position: relative;
+    top: 25%;
+    padding: 15px;
+}
+.navslide i
+{
+    right: 0;
+    height: fit-content;
+    cursor: pointer;
+}
+.title-info
+{
+    background-color: #25367c;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0.1rem 0.1rem 0.3rem rgba(255,131,239,0.5),
+                -0.1rem -0.1rem 0.3rem rgba(255,162,243,0.5),
+                 0.1rem 0.1rem 0.3rem rgba(255,255,255,0.3),
+                -0.1rem -0.1rem 0.3rem rgba(255,255,255,0.3);
+    cursor: pointer;
+}
+.para-info
+{
+    display: none;
+    background-color: #5263a5;
+    font-family: Courier New, monospace;
+}
+#duration
+{
+    background-image: url(../images/2817682.jpg);
+    height: 50vh;
+}
+#duration .mask
+{
+    height: 50vh;
+}
+.timer
+{
+    color: white;
+}
+.icons i:hover
+{
+    background-color: #5263a5;
+    color: white;
+}
