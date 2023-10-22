@@ -62,6 +62,6 @@ $("a").click(function(){
     
     var positionOfSection = $(sectionId).offset().top;
     
-    $("html , body").animate({scrollTop:positionOfSection},1500);
+    $("html , body").animate({scrollTop:positionOfSection},500);
     
 })
